@@ -81,3 +81,14 @@ Grid Size: 8, 50
 3. Uses a recursive depth-first search (DFS) to find the shortest path.
 4. Animates the traversal by marking the visited path with @.
 5. Displays the solution dynamically in the terminal.
+
+## Running Tests
+To run the tests, use the following command:
+```bash
+go test -v
+```
+
+To output code coverage statistics, use:
+```bash
+go test -v -coverprofile=coverage.out && go tool cover -html=coverage.out
+```
